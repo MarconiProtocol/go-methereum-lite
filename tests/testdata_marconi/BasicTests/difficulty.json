@@ -1,0 +1,156 @@
+{
+    "DifficultySingleIncreaseLowerBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "60",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000488",
+    "//comment": "Note the following hex string indicates the EmptyUncleHash, i.e. no uncles.",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultySingleIncreaseUpperBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "68",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000488",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyDoubleIncreaseLowerBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "51",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000976",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyDoubleIncreaseUpperBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "59",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000976",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyTripleIncreaseLowerBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "43",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1001464",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyTripleIncreaseUpperBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "50",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1001464",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyUnchangedLowerBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "69",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000000",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyUnchangedUpperBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "77",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000000",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyDecreaseLowerBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "78",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "999512",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyDecreaseUpperBound" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "86",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "999512",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyDoubleDecrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "87",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "999024",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "DifficultyUncleDoubleIncrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "60",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000976",
+    "//comment": "Note the following hex string indicates non-empty uncles.",
+	"parentUncles" : "0x1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "DifficultyUncleSingleIncrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "69",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000488",
+	"parentUncles" : "0x1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "DifficultyUncleNoChange" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "78",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "1000000",
+	"parentUncles" : "0x1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "DifficultyUncleSingleDecrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "87",
+        "currentBlockNumber" : "42",
+        "currentDifficulty" : "999512",
+	"parentUncles" : "0x1111111111111111111111111111111111111111111111111111111111111111"
+    },
+    "NoExponentialDifficultyPostBlock300000Increase" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "60",
+        "currentBlockNumber" : "300001",
+        "currentDifficulty" : "1000488",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "NoExponentialDifficultyPostBlock300000Decrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "78",
+        "currentBlockNumber" : "300001",
+        "currentDifficulty" : "999512",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "NoExponentialDifficultyInAYearIncrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "60",
+        "currentBlockNumber" : "2302400",
+        "currentDifficulty" : "1000488",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    },
+    "NoExponentialDifficultyInAYearDecrease" : {
+        "parentTimestamp" : "42",
+        "parentDifficulty" : "1000000",
+        "currentTimestamp" : "78",
+        "currentBlockNumber" : "2302400",
+        "currentDifficulty" : "999512",
+	"parentUncles" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+    }
+}

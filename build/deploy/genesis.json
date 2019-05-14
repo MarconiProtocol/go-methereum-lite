@@ -1,0 +1,14 @@
+{
+  "config": {
+      "chainId": 161027,
+      "constantinopleBlock": 0,
+      "petersburgBlock": 0,
+      "eip155Block": 0,
+      "eip158Block": 0
+  },
+  "difficulty": "1000",
+  "gasLimit": "200000000",
+  "alloc": {
+      "0x35B357A01cd1EdDbF7DFdF656f0fBA9AD0a84464" : { "balance": "225000000000000000000000000" }
+  }
+}

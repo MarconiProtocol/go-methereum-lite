@@ -1,0 +1,95 @@
+Licensee's use of this software is conditioned upon acceptance of the
+following terms:
+
+MARCONI CHAIN END USER LICENSE AGREEMENT
+
+
+THIS "SOFTWARE LICENSE AGREEMENT" ("AGREEMENT") IS BINDING ON THE USER
+UPON USE OF THE SOFTWARE PROVIDED WITH THIS AGREEMENT (THE
+"SOFTWARE"), OR USE OF ANY AUTHORIZATION CODE PROVIDED BY MARCONI. YOU
+ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND THIS AGREEMENT AND ARE
+BOUND BY ITS TERMS. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS
+OF THIS AGREEMENT, DO NOT USE THE SOFTWARE OR ANY AUTHORIZATION CODE.
+
+1. License Grant.
+Marconi (the "Licensor") grants you (the "Licensee") a free,
+non-exclusive, perpetual license to use the Software and any
+documentation files pertaining to the Software ("Documentation"). The
+Software covered under this Agreement is comprised of the contents of
+the Marconi Chain software package, including any source code and any
+executable programs such as geth, meth, and their platform-specific
+variants, and any associated configuration and data files used by the
+programs.
+
+2. Confidentiality.
+You agree to maintain the confidentiality of Software and
+Documentation. You will not disclose Software or Documentation, or any
+information or materials related thereto, to any third party without
+the express written consent of Marconi. You further agree to take all
+reasonable measures to limit access to Software and Documentation only
+to those of your employees who reasonably require such access to
+perform their employment obligations and who are bound by
+confidentiality agreements with you (in order to maintain the
+confidentiality of Software and Documentation).
+
+3. Trademarks
+This Agreement does not grant you permission to use the trade names,
+trademarks, service marks, or product names of Marconi or any Marconi
+Agent or Affiliate, except as required for reasonable and customary
+use in describing the origin of the Software.
+
+4. No Warranty.
+The Software is provided on an "AS IS" BASIS. To the extent permitted
+by applicable laws, Marconi provides the Software WITHOUT WARRANTIES
+OR CONDITIONS OF ANY KIND, either express or implied including any
+warranties of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR
+A PARTICULAR PURPOSE. Marconi does not warrant that the functions
+contained in the Software will meet any requirements or needs of the
+Licensor, or that the Software will operate error free, or in an
+uninterrupted fashion, or that any defects or errors in the Software
+will be corrected, or that the Software is compatible with any
+particular platform.
+
+5. Limitation of Liability.
+To the extent not prohibited by applicable laws, in no event shall
+Marconi be liable to you or any third party for any incidental or
+consequential damages (including, without limitation, indirect,
+special, punitive or exemplary damages for loss of business, loss of
+profits, business interruption or loss of business information, loss
+of network connectivity, operation, or configuration, or loss of any
+configuration data or network operation data) arising out of or
+related to the use of or the inability to use the Software, or for any
+claim by any other party, even if advised of the possibility of such
+damages.
+
+6. Accepting Warranty or Additional Liability.
+You may redistribute the Software or derivative works thereof, and may
+choose to offer support, warranty, indemnity, or other liability
+obligations and/or rights consistent with this Agreement. However, in
+accepting such obligations, you act only on your own behalf and sole
+responsibility, not on behalf of any other contributor. You agree to
+indemnify, defend, and hold each Licensor and contributor harmless for
+any liability incurred by, or claims asserted against, such
+contributor by reason of your accepting any such warranty or
+additional liability.
+
+7. Export Restrictions.
+You may not export the Software and Documentation in violation of
+applicable laws and regulations.
+
+8. Governing Law
+The Agreement and any dispute relating thereto will be governed by the
+laws of the State of California.
+
+9. Entire Agreement.
+This Agreement constitutes the entire agreement and understanding of
+the parties with respect to the subject matter hereof, superseding any
+and all prior agreements, understandings, and discussions. No
+alteration or waiver of this Agreement shall be binding unless
+consented to by both parties.
+
+10. Notices
+Should you have any questions concerning this Agreement, or if you
+desire to contact Marconi for any reason, please write to:
+
+legal@marconi.org
