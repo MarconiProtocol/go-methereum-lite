@@ -34,7 +34,7 @@ import (
 	"git.marconi.org/marconiprotocol/go-methereum-lite/consensus"
 	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
 	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"gitlab.neji.vm.tc/marconi/marconi-cryptonight"
+	"git.marconi.org/marconiprotocol/marconi-cryptonight"
 )
 
 const (

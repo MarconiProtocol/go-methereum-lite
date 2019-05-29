@@ -35,7 +35,7 @@ import (
 	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
 	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
 	"golang.org/x/crypto/sha3"
-	"gitlab.neji.vm.tc/marconi/marconi-cryptonight"
+	"git.marconi.org/marconiprotocol/marconi-cryptonight"
 )
 
 // Ethash proof-of-work protocol constants.

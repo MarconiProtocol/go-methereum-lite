@@ -227,6 +227,9 @@ func doInstall(cmdline []string) {
 			os.Exit(1)
 		}
 	}
+
+	build.MustRun(goTool("get", "git.marconi.org/marconiprotocol/marconi-cryptonight"))
+
 	// Compile packages given as arguments, or everything if there are no arguments.
 	packages := []string{"./..."}
 	if flag.NArg() > 0 {
