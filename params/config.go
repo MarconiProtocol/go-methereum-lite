@@ -46,8 +46,9 @@ var (
 		PetersburgBlock:     big.NewInt(0),
 		MIP1Block:           big.NewInt(262800),
 		MIP2Block:           big.NewInt(788400),
-		MIP3Block:           big.NewInt(1839600),
-		MIP4Block:           big.NewInt(2365200),
+		MIP3Block:           big.NewInt(1314000),
+		MIP4Block:           big.NewInt(1839600),
+		MIP5Block:           big.NewInt(3942000),
 		Ethash:              new(EthashConfig),
 		ContractsRequireWhitelistedAccount: true,
 	}
@@ -83,8 +84,9 @@ var (
 		PetersburgBlock:     big.NewInt(0),
 		MIP1Block:           big.NewInt(262800),
 		MIP2Block:           big.NewInt(788400),
-		MIP3Block:           big.NewInt(1839600),
-		MIP4Block:           big.NewInt(2365200),
+		MIP3Block:           big.NewInt(1314000),
+		MIP4Block:           big.NewInt(1839600),
+		MIP5Block:           big.NewInt(3942000),
 		Ethash:              new(EthashConfig),
 	}
 
@@ -112,8 +114,9 @@ var (
 		PetersburgBlock:     big.NewInt(0),
 		MIP1Block:           big.NewInt(262800),
 		MIP2Block:           big.NewInt(788400),
-		MIP3Block:           big.NewInt(1839600),
-		MIP4Block:           big.NewInt(2365200),
+		MIP3Block:           big.NewInt(1314000),
+		MIP4Block:           big.NewInt(1839600),
+		MIP5Block:           big.NewInt(3942000),
 		Clique: &CliqueConfig{
 			Period: 15,
 			Epoch:  30000,
@@ -162,7 +165,7 @@ var (
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
 	AllEthashProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0),
-		big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, new(EthashConfig), nil, false}
+		big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0),nil, nil, nil, new(EthashConfig), nil, false}
 
 	// AllCliqueProtocolChanges contains every protocol change (EIPs) introduced
 	// and accepted by the Ethereum core developers into the Clique consensus.
@@ -170,10 +173,10 @@ var (
 	// This configuration is intentionally not using keyed fields to force anyone
 	// adding flags to the config to also have to set these fields.
 	AllCliqueProtocolChanges = &ChainConfig{big.NewInt(1337), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0),
-		big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil, &CliqueConfig{Period: 0, Epoch: 30000}, false}
+		big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, nil, &CliqueConfig{Period: 0, Epoch: 30000}, false}
   
 	TestChainConfig = &ChainConfig{big.NewInt(1), big.NewInt(0), nil, false, big.NewInt(0), common.Hash{}, big.NewInt(0), big.NewInt(0),
-		big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, new(EthashConfig), nil, false}
+		big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), big.NewInt(0), nil, nil, nil, new(EthashConfig), nil, false}
 	TestRules       = TestChainConfig.Rules(new(big.Int))
 )
 
@@ -214,6 +217,7 @@ type ChainConfig struct {
 	MIP2Block           *big.Int `json:"mip2Block,omitempty"`           // MIP2 switch block (nil = no fork, 0 = already on MIP2)
 	MIP3Block           *big.Int `json:"mip3Block,omitempty"`           // MIP3 switch block (nil = no fork, 0 = already on MIP3)
 	MIP4Block           *big.Int `json:"mip4Block,omitempty"`           // MIP4 switch block (nil = no fork, 0 = already on MIP4)
+	MIP5Block           *big.Int `json:"mip5Block,omitempty"`           // MIP5 switch block (nil = no fork, 0 = already on MIP5)
 	ConstantinopleBlock *big.Int `json:"constantinopleBlock,omitempty"` // Constantinople switch block (nil = no fork, 0 = already activated)
 	PetersburgBlock     *big.Int `json:"petersburgBlock,omitempty"`     // Petersburg switch block (nil = same as Constantinople)
 	EWASMBlock          *big.Int `json:"ewasmBlock,omitempty"`          // EWASM switch block (nil = no fork, 0 = already activated)
@@ -319,6 +323,11 @@ func (c *ChainConfig) IsMIP3(num *big.Int) bool {
 // IsMIP4 returns whether num is either equal to the MIP4Block fork block or greater.
 func (c *ChainConfig) IsMIP4(num *big.Int) bool {
 	return isForked(c.MIP4Block, num)
+}
+
+// IsMIP5 returns whether num is either equal to the MIP5Block fork block or greater.
+func (c *ChainConfig) IsMIP5(num *big.Int) bool {
+	return isForked(c.MIP5Block, num)
 }
 
 // IsConstantinople returns whether num is either equal to the Constantinople fork block or greater.

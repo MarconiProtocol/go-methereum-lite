@@ -40,15 +40,15 @@ import (
 
 // Ethash proof-of-work protocol constants.
 var (
-	SoftLaunchBlockReward *big.Int = big.NewInt(1e+18)                                // Block reward in wei for successfully mining a block upward from Byzantium
-	// Note: big.NewInt(int64) overflows for higher digits, use SetString for 20 and 10 block rewards
-	MIP1BlockReward, _              = new(big.Int).SetString("20000000000000000000", 10) // Block reward in wei for successfully mining a block upward from MIP1Block
-	MIP2BlockReward, _              = new(big.Int).SetString("10000000000000000000", 10) // Block reward in wei for successfully mining a block upward from MIP2Block
-	MIP3BlockReward        *big.Int = big.NewInt(5e+18)                               // Block reward in wei for successfully mining a block upward from MIP3Block
-	DefaultBlockReward     *big.Int = big.NewInt(3e+18)                               // Block reward in wei for successfully mining a block upward from MIP4Block, the default block reward
+	SoftLaunchBlockReward           = big.NewInt(1e+18)                               // Block reward in wei for successfully mining a block during the soft launch period
+	MIP1BlockReward                 = big.NewInt(2e+18)                               // Block reward in wei for successfully mining a block upward from MIP1Block
+	MIP2BlockReward                 = big.NewInt(5e+18)                               // Block reward in wei for successfully mining a block upward from MIP2Block
+	// Note: big.NewInt(int64) overflows for higher digits, use SetString for 10 or higher block rewards
+	MIP3BlockReward, _              = new(big.Int).SetString("10000000000000000000", 10) // Block reward in wei for successfully mining a block upward from MIP3Block
+	MIP4BlockReward                 = big.NewInt(5e+18)                               // Block reward in wei for successfully mining a block upward from MIP4Block
+	DefaultBlockReward              = big.NewInt(3e+18)                               // Default block reward
 	maxUncles                       = 2                                                  // Maximum number of uncles allowed in a single block
 	allowedFutureBlockTime          = 15 * time.Second                                   // Max time from current time allowed for blocks, before they're considered future blocks
-	BlockInterval                   = 240                                                // Number of blocks before block reward is re-evaluated
 )
 
 // Various error messages to mark blocks invalid. These should be private to
@@ -542,8 +542,10 @@ var (
 func accumulateRewards(config *params.ChainConfig, state *state.StateDB, header *types.Header, uncles []*types.Header) {
 	// Select the correct block reward based on chain progression
 	blockReward := SoftLaunchBlockReward
-	if config.IsMIP4(header.Number) {
+	if config.IsMIP5(header.Number) {
 		blockReward = DefaultBlockReward
+	} else if config.IsMIP4(header.Number) {
+		blockReward = MIP4BlockReward
 	} else if config.IsMIP3(header.Number) {
 		blockReward = MIP3BlockReward
 	} else if config.IsMIP2(header.Number) {
@@ -567,20 +569,5 @@ func accumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 		reward.Add(reward, r)
 	}
 
-	// take into account of block reward reduction
-	reward = reduceReward(header, reward)
-
 	state.AddBalance(header.Coinbase, reward)
-}
-
-// reduce the block reward based on the block height
-// Note: this is the place-holder for reward reduction, ideally we want the block reward to decline
-// exponentially over 20 years, and after year 20, reward is nearly 0
-// what Bitcoin does is halving the block reward every 210,000 blocks, we can do something similar
-// but on a fewer block interval, or we can do something more fancy.
-func reduceReward(header *types.Header, reward *big.Int) *big.Int {
-	periods := new(big.Int)
-	periods.Div(header.Number, big.NewInt(int64(BlockInterval)));
-	// TODO reduce block reward based on periods count
-	return reward
 }
