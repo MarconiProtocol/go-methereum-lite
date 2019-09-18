@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 // ContractRef is a reference to the contract's backing object

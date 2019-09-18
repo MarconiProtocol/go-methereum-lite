@@ -19,11 +19,11 @@ package downloader
 import (
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/rawdb"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/core/rawdb"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

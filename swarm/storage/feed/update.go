@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/chunk"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/chunk"
 )
 
 // ProtocolVersion defines the current version of the protocol that will be included in each update message

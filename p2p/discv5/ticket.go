@@ -25,10 +25,10 @@ import (
 	"sort"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/mclock"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/mclock"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 const (

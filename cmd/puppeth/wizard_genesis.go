@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

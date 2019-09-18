@@ -20,7 +20,7 @@ import (
 	"context"
 	"path"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 type Response struct {

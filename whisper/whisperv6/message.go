@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto/ecies"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto/ecies"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

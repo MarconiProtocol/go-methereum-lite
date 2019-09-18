@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"reflect"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/keystore"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/usbwallet"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/ethapi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/keystore"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/usbwallet"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/ethapi"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 // numberOfAccountsToDerive For hardware wallets, the number of accounts to derive
@@ -518,7 +518,7 @@ func (api *SignerAPI) SignTransaction(ctx context.Context, args SendTxArgs, meth
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://git.marconi.org/marconiprotocol/go-methereum-lite/wiki/Management-APIs#personal_sign
+// https://github.com/ethereum/go-ethereum/wiki/Management-APIs#personal_sign
 func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, data hexutil.Bytes) (hexutil.Bytes, error) {
 	sighash, msg := SignHash(data)
 	// We make the request prior to looking up if we actually have the account, to prevent

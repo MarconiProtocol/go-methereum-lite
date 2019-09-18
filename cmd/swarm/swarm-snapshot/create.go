@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/adapters"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network/simulation"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/adapters"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network/simulation"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

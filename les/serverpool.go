@@ -28,14 +28,14 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/mclock"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/discv5"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common/mclock"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/discv5"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 const (

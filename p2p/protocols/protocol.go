@@ -38,12 +38,12 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/spancontext"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/tracing"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/spancontext"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/tracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

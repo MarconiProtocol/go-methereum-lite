@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // nginxDockerfile is theis the Dockerfile required to build an nginx reverse-

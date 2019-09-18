@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/debug"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/debug"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

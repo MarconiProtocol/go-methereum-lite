@@ -19,8 +19,8 @@
 package whisperv5
 
 import (
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

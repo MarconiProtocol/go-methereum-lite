@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/keystore"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/keystore"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

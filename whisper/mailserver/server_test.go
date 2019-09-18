@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	whisper "git.marconi.org/marconiprotocol/go-methereum-lite/whisper/whisperv6"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	whisper "github.com/MarconiProtocol/go-methereum-lite/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

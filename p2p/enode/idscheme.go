@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enr"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enr"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

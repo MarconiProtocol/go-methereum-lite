@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/feed/lookup"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/feed/lookup"
 )
 
 func areEqualJSON(s1, s2 string) (bool, error) {

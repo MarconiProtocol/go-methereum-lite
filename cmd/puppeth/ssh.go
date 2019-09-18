@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/terminal"
 )

@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

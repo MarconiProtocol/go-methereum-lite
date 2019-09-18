@@ -35,11 +35,11 @@ import (
 	"io"
 
 	"github.com/elastic/gosigar"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 	"github.com/mohae/deepcopy"
 	"golang.org/x/net/websocket"
 )

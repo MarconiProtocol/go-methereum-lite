@@ -16,7 +16,7 @@
 
 package core
 
-import "git.marconi.org/marconiprotocol/go-methereum-lite/common"
+import "github.com/MarconiProtocol/go-methereum-lite/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

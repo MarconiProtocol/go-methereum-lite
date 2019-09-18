@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/consensus/ethash"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth/downloader"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth/gasprice"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/consensus/ethash"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/eth/downloader"
+	"github.com/MarconiProtocol/go-methereum-lite/eth/gasprice"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

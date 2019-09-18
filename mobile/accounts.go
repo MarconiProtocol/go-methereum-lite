@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/keystore"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/keystore"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 const (

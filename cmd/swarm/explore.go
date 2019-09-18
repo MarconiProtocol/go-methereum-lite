@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"hash"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/feed/lookup"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/feed/lookup"
 )
 
 // Request represents a request to sign or signed feed update message

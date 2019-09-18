@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
 )
 
 // calculates the memory size required for a step

@@ -24,14 +24,14 @@ import (
 	"net"
 	"os"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/discover"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/discv5"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/nat"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/netutil"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/discover"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/discv5"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/nat"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/netutil"
 )
 
 func main() {

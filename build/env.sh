@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/git.marconi.org/marconiprotocol"
+ethdir="$workspace/src/github.com/MarconiProtocol"
 if [ ! -L "$ethdir/go-methereum-lite" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"

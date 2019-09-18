@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/bitutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/common/bitutil"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

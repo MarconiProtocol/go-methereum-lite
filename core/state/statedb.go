@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"sort"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/trie"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/trie"
 )
 
 type revision struct {
@@ -507,7 +507,7 @@ func (self *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range self.journal.dirties {
-		// As documented [here](https://git.marconi.org/marconiprotocol/go-methereum-lite/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/ethereum/go-ethereum/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

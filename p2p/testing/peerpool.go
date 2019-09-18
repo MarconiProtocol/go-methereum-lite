@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
 )
 
 type TestPeer interface {

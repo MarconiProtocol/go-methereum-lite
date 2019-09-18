@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/consensus/ethash"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/jsre"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/consensus/ethash"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/eth"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/jsre"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
 )
 
 const (

@@ -25,9 +25,9 @@ import (
 	"sync"
 
 	"github.com/davecgh/go-spew/spew"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/ethapi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/ethapi"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

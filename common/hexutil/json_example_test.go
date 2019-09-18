@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
 )
 
 type MyType [5]byte

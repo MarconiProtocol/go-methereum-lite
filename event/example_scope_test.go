@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/event"
+	"github.com/MarconiProtocol/go-methereum-lite/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

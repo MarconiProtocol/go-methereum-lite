@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/compiler"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind"
+	"github.com/MarconiProtocol/go-methereum-lite/common/compiler"
 )
 
 var (

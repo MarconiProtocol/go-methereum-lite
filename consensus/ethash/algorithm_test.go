@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

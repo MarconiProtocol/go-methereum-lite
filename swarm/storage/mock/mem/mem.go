@@ -27,8 +27,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock"
 )
 
 // GlobalStore stores all chunk data and also keys and node addresses relations.

@@ -33,15 +33,15 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/keystore"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/cmdtest"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api"
-	swarmhttp "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api/http"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/keystore"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/cmdtest"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/api"
+	swarmhttp "github.com/MarconiProtocol/go-methereum-lite/swarm/api/http"
 )
 
 var loglevel = flag.Int("loglevel", 3, "verbosity of logs")

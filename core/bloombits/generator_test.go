@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

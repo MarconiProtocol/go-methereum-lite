@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

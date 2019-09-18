@@ -19,8 +19,8 @@ package enode
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enr"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enr"
 )
 
 func newLocalNodeForTesting() (*LocalNode, *DB) {

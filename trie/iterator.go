@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

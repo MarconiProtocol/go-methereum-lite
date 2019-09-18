@@ -21,10 +21,10 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 // Peer represents a whisper protocol peer connection.

@@ -19,7 +19,7 @@ package protocols
 import (
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
 )
 
 // define some metrics

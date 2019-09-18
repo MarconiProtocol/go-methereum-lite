@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

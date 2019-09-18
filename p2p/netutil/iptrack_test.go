@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/mclock"
+	"github.com/MarconiProtocol/go-methereum-lite/common/mclock"
 )
 
 const (

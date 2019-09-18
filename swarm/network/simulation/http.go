@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations"
 )
 
 // Package defaults.

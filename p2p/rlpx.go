@@ -35,11 +35,11 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/bitutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto/ecies"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto/secp256k1"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common/bitutil"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto/ecies"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto/secp256k1"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

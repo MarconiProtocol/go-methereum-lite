@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/nat"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/nat"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 )
 
 const (

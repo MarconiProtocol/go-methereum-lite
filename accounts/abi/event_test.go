@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -356,7 +356,7 @@ func unpackTestEventData(dest interface{}, hexData string, jsonEvent []byte, ass
 
 /*
 Taken from
-https://git.marconi.org/marconiprotocol/go-methereum-lite/pull/15568
+https://github.com/ethereum/go-ethereum/pull/15568
 */
 
 type testResult struct {

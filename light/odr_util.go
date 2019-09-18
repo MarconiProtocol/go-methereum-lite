@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"context"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/rawdb"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/core/rawdb"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 var sha3_nil = crypto.Keccak256Hash(nil)

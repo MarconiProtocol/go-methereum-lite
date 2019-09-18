@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/les/flowcontrol"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/light"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/eth"
+	"github.com/MarconiProtocol/go-methereum-lite/les/flowcontrol"
+	"github.com/MarconiProtocol/go-methereum-lite/light"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 var (

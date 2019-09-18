@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 // asymmetrical key exchange between two directly connected peers

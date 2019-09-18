@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/vm/runtime"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core/vm/runtime"
 )
 
 func ExampleExecute() {

@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/testutil"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/testutil"
 )
 
 // TestCLISwarmExportImport perform the following test:

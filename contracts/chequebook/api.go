@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 const Version = "1.0"

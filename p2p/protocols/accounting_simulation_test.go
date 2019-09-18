@@ -31,14 +31,14 @@ import (
 
 	"github.com/mattn/go-colorable"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/adapters"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/adapters"
 )
 
 const (

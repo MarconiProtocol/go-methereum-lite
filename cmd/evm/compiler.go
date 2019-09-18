@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/evm/internal/compiler"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

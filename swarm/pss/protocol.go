@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/protocols"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/protocols"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 const (

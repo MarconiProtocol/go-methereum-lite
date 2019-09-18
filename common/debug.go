@@ -26,7 +26,7 @@ import (
 
 // Report gives off a warning requesting the user to submit an issue to the github tracker.
 func Report(extra ...interface{}) {
-	fmt.Fprintln(os.Stderr, "You've encountered a sought after, hard to reproduce bug. Please report this to the developers <3 https://git.marconi.org/marconiprotocol/go-methereum-lite/issues")
+	fmt.Fprintln(os.Stderr, "You've encountered a sought after, hard to reproduce bug. Please report this to the developers <3 https://github.com/MarconiProtocol/go-methereum-lite/issues")
 	fmt.Fprintln(os.Stderr, extra...)
 
 	_, file, line, _ := runtime.Caller(1)

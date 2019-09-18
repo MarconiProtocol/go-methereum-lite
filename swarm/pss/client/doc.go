@@ -28,11 +28,11 @@
 //  	"context"
 //  	"fmt"
 //  	"os"
-//  	pss "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/pss/client"
-//  	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/protocols"
-//  	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-//  	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/pot"
-//  	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+//  	pss "github.com/MarconiProtocol/go-methereum-lite/swarm/pss/client"
+//  	"github.com/MarconiProtocol/go-methereum-lite/p2p/protocols"
+//  	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+//  	"github.com/MarconiProtocol/go-methereum-lite/swarm/pot"
+//  	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 //  )
 //
 //  type FooMsg struct {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

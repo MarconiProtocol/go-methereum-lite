@@ -38,9 +38,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -120,7 +120,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://git.marconi.org/marconiprotocol/go-methereum-lite/issues." +
+				"https://github.com/MarconiProtocol/go-methereum-lite/issues." +
 				"The error was : %s"
 			return fmt.Errorf(msg, tmpName, err)
 		}

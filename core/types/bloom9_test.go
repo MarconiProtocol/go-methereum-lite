@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/state"
+	"github.com/MarconiProtocol/go-methereum-lite/core/state"
 )
 
 func TestBloom9(t *testing.T) {

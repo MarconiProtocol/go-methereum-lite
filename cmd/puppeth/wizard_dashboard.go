@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

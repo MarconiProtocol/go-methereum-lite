@@ -19,9 +19,9 @@ package state
 import (
 	"bytes"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/trie"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/internal/browser"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/internal/browser"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueURL = "https://git.marconi.org/marconiprotocol/go-methereum-lite/issues/new"
+const issueURL = "https://github.com/MarconiProtocol/go-methereum-lite/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

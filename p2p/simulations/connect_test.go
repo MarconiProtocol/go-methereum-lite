@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/adapters"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/usbwallet"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/usbwallet"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 	"github.com/robertkrimen/otto"
 )
 

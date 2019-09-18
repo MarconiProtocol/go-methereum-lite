@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/adapters"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/adapters"
 	"github.com/mattn/go-colorable"
 )
 

@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/chunk"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/feed/lookup"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/chunk"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/feed/lookup"
 )
 
 var (

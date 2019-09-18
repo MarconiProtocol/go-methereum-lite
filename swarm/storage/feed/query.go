@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/feed/lookup"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/feed/lookup"
 )
 
 // Query is used to specify constraints when performing an update lookup

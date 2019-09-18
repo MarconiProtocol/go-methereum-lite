@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/spancontext"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/spancontext"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

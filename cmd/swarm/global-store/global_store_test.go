@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	mockRPC "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	mockRPC "github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/rpc"
 )
 
 // TestHTTP_InMemory tests in-memory global store that exposes

@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

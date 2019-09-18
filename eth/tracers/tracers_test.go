@@ -27,17 +27,17 @@ import (
 	"strings"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/vm"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/tests"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/core/vm"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

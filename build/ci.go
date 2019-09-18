@@ -58,9 +58,9 @@ import (
 	"strings"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/build"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
-	sv "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/version"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/build"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
+	sv "github.com/MarconiProtocol/go-methereum-lite/swarm/version"
 )
 
 var (
@@ -228,7 +228,7 @@ func doInstall(cmdline []string) {
 		}
 	}
 
-	build.MustRun(goTool("get", "git.marconi.org/marconiprotocol/marconi-cryptonight"))
+	build.MustRun(goTool("get", "github.com/MarconiProtocol/marconi-cryptonight"))
 
 	// Compile packages given as arguments, or everything if there are no arguments.
 	packages := []string{"./..."}
@@ -815,7 +815,7 @@ func doAndroidArchive(cmdline []string) {
 	// Build the Android archive and Maven resources
 	build.MustRun(goTool("get", "golang.org/x/mobile/cmd/gomobile", "golang.org/x/mobile/cmd/gobind"))
 	build.MustRun(gomobileTool("init", "--ndk", os.Getenv("ANDROID_NDK")))
-	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "git.marconi.org/marconiprotocol/go-methereum-lite/mobile"))
+	build.MustRun(gomobileTool("bind", "-ldflags", "-s -w", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/MarconiProtocol/go-methereum-lite/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -936,7 +936,7 @@ func doXCodeFramework(cmdline []string) {
 	// Build the iOS XCode framework
 	build.MustRun(goTool("get", "golang.org/x/mobile/cmd/gomobile", "golang.org/x/mobile/cmd/gobind"))
 	build.MustRun(gomobileTool("init"))
-	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "--tags", "ios", "-v", "git.marconi.org/marconiprotocol/go-methereum-lite/mobile")
+	bind := gomobileTool("bind", "-ldflags", "-s -w", "--target", "ios", "--tags", "ios", "-v", "github.com/MarconiProtocol/go-methereum-lite/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards

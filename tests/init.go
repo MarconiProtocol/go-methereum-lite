@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 // Forks table defines supported forks and their chain config.

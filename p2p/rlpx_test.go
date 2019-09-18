@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto/ecies"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/pipes"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto/ecies"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/pipes"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

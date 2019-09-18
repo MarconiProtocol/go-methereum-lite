@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	ch "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/chunk"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/mem"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	ch "github.com/MarconiProtocol/go-methereum-lite/swarm/chunk"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/mem"
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"
 )
 

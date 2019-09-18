@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/ethapi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/signer/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/signer/rules/deps"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/signer/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/ethapi"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/signer/core"
+	"github.com/MarconiProtocol/go-methereum-lite/signer/rules/deps"
+	"github.com/MarconiProtocol/go-methereum-lite/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

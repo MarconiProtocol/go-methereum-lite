@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/bitutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/light"
+	"github.com/MarconiProtocol/go-methereum-lite/common/bitutil"
+	"github.com/MarconiProtocol/go-methereum-lite/light"
 )
 
 const (

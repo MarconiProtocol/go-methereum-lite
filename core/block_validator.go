@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/consensus"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/state"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/consensus"
+	"github.com/MarconiProtocol/go-methereum-lite/core/state"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

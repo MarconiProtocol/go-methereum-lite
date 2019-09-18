@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

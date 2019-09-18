@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

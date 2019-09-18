@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock"
 )
 
 // MockStore creates NodeStore instances from provided GlobalStorer,

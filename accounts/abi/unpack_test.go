@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 	"github.com/stretchr/testify/require"
 )
 

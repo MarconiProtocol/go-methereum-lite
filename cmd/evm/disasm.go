@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/asm"
+	"github.com/MarconiProtocol/go-methereum-lite/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

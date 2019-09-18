@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "git.marconi.org/marconiprotocol/go-methereum-lite"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/event"
+	ethereum "github.com/MarconiProtocol/go-methereum-lite"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/event"
 )
 
 // PublicResolverABI is the input ABI used to generate the binding from.

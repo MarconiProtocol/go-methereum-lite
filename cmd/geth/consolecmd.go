@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/console"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/console"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -43,7 +43,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://git.marconi.org/marconiprotocol/go-methereum-lite/wiki/JavaScript-Console.`,
+See https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -56,7 +56,7 @@ See https://git.marconi.org/marconiprotocol/go-methereum-lite/wiki/JavaScript-Co
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://git.marconi.org/marconiprotocol/go-methereum-lite/wiki/JavaScript-Console.
+See https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -69,7 +69,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://git.marconi.org/marconiprotocol/go-methereum-lite/wiki/JavaScript-Console`,
+JavaScript API. See https://github.com/ethereum/go-ethereum/wiki/JavaScript-Console`,
 	}
 )
 

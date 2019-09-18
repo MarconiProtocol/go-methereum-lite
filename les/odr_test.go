@@ -23,17 +23,17 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/rawdb"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/state"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/vm"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/light"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/core/rawdb"
+	"github.com/MarconiProtocol/go-methereum-lite/core/state"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/core/vm"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/light"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 type odrTestFn func(ctx context.Context, db ethdb.Database, config *params.ChainConfig, bc *core.BlockChain, lc *light.LightChain, bhash common.Hash) []byte

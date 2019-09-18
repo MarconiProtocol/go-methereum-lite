@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

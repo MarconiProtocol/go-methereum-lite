@@ -20,12 +20,12 @@ import (
 	"math/big"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind/backends"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/contracts/ens/contract"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind/backends"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/contracts/ens/contract"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 var (

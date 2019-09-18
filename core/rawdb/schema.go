@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

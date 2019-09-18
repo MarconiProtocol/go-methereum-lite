@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

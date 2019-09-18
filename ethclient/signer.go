@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

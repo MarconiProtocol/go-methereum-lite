@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/keystore"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth/downloader"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethclient"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethstats"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/les"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/discv5"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/nat"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/keystore"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/eth"
+	"github.com/MarconiProtocol/go-methereum-lite/eth/downloader"
+	"github.com/MarconiProtocol/go-methereum-lite/ethclient"
+	"github.com/MarconiProtocol/go-methereum-lite/ethstats"
+	"github.com/MarconiProtocol/go-methereum-lite/les"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/discv5"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/nat"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -449,7 +449,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://git.marconi.org/marconiprotocol/go-methereum-lite/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/MarconiProtocol/go-methereum-lite/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

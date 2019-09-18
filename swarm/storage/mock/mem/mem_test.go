@@ -19,7 +19,7 @@ package mem
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/test"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/test"
 )
 
 // TestGlobalStore is running test for a GlobalStore

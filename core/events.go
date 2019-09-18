@@ -17,8 +17,8 @@
 package core
 
 import (
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

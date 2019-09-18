@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 /*

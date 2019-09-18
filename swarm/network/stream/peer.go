@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/protocols"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	pq "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network/priorityqueue"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network/stream/intervals"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/spancontext"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/state"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/protocols"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	pq "github.com/MarconiProtocol/go-methereum-lite/swarm/network/priorityqueue"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network/stream/intervals"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/spancontext"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/state"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

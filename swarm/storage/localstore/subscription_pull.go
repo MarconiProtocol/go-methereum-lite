@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"sync"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/shed"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/shed"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 // SubscribePull returns a channel that provides chunk addresses and stored times from pull syncing index.

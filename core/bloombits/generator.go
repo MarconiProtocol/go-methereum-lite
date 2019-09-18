@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 var (

@@ -26,7 +26,7 @@ import (
 	"net"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enr"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enr"
 )
 
 // Node represents a host on the network.

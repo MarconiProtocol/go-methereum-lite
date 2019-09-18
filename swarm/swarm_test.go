@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/api"
 )
 
 // TestNewSwarm validates Swarm fields in repsect to the provided configuration.

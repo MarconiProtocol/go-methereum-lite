@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
 )
 
 type exp struct {

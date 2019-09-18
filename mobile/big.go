@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

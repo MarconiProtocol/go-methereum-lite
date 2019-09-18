@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

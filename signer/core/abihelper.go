@@ -22,8 +22,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 
 	"bytes"
 	"os"

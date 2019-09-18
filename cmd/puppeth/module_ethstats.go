@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

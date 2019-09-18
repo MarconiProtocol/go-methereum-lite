@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
 )
 
 // Tests the go-ethereum to Aleth chainspec conversion for the Stureby testnet.

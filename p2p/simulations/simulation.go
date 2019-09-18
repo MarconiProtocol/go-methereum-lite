@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

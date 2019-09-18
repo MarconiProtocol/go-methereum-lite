@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), golang-1.10
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://git.marconi.org/marconiprotocol/go-methereum-lite.git
-Vcs-Browser: https://git.marconi.org/marconiprotocol/go-methereum-lite
+Vcs-Git: git://github.com/MarconiProtocol/go-methereum-lite.git
+Vcs-Browser: https://github.com/MarconiProtocol/go-methereum-lite
 
 {{range .Executables}}
 Package: {{$.ExeName .}}

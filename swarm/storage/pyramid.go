@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	ch "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/chunk"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	ch "github.com/MarconiProtocol/go-methereum-lite/swarm/chunk"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 /*

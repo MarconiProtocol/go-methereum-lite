@@ -25,8 +25,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

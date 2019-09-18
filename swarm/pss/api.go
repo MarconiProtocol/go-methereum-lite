@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 // Wrapper for receiving pss messages when using the pss API

@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/adapters"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network/simulation"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/state"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/testutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/adapters"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network/simulation"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/state"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/testutil"
 )
 
 const dataChunkCount = 200

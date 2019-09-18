@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/mclock"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/common/mclock"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
 )
 
 func TestFreeClientPoolL10C100(t *testing.T) {

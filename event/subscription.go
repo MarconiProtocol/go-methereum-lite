@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/mclock"
+	"github.com/MarconiProtocol/go-methereum-lite/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

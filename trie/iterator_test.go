@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
 )
 
 func TestIterator(t *testing.T) {

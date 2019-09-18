@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

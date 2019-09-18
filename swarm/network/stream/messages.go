@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	bv "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network/bitvector"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/spancontext"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	bv "github.com/MarconiProtocol/go-methereum-lite/swarm/network/bitvector"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/spancontext"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 	"github.com/opentracing/opentracing-go"
 )
 

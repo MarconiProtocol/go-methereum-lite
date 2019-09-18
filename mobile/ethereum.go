@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "git.marconi.org/marconiprotocol/go-methereum-lite"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	ethereum "github.com/MarconiProtocol/go-methereum-lite"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 // Subscription represents an event subscription where events are

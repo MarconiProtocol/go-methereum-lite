@@ -1,4 +1,4 @@
-export ROOT="${GOPATH}/src/git.marconi.org/marconiprotocol/go-methereum-lite"
+export ROOT="${GOPATH}/src/github.com/MarconiProtocol/go-methereum-lite"
 export PATH="${ROOT}/swarm/dev/bin:${PATH}"
 
 cd "${ROOT}/swarm/dev"

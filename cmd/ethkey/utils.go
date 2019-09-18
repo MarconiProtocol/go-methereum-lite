@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/console"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/console"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

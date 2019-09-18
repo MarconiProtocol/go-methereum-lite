@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

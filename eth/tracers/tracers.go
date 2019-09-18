@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/eth/tracers/internal/tracers"
+	"github.com/MarconiProtocol/go-methereum-lite/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

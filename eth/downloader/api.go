@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "git.marconi.org/marconiprotocol/go-methereum-lite"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/event"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	ethereum "github.com/MarconiProtocol/go-methereum-lite"
+	"github.com/MarconiProtocol/go-methereum-lite/event"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

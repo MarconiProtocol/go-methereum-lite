@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

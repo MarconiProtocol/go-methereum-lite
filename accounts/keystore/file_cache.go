@@ -25,7 +25,7 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // fileCache is a cache of files seen during scan of keystore.

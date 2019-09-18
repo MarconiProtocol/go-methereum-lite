@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 func TestTransaction(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 // makeTopics converts a filter query argument list into a filter topic set.

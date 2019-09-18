@@ -25,17 +25,17 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/consensus"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/consensus/misc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/state"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/consensus"
+	"github.com/MarconiProtocol/go-methereum-lite/consensus/misc"
+	"github.com/MarconiProtocol/go-methereum-lite/core/state"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 	"golang.org/x/crypto/sha3"
-	"git.marconi.org/marconiprotocol/marconi-cryptonight"
+	"github.com/MarconiProtocol/marconi-cryptonight"
 )
 
 // Ethash proof-of-work protocol constants.

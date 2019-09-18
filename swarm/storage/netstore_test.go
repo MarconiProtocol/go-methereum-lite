@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	ch "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/chunk"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	ch "github.com/MarconiProtocol/go-methereum-lite/swarm/chunk"
 )
 
 var sourcePeerID = enode.HexID("99d8594b52298567d2ca3f4c441a5ba0140ee9245e26460d01102a52773c73b9")

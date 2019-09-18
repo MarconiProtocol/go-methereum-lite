@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

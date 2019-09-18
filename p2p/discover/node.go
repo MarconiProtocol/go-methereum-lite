@@ -23,10 +23,10 @@ import (
 	"net"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto/secp256k1"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto/secp256k1"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
 )
 
 // node represents a host on the network.

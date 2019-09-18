@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

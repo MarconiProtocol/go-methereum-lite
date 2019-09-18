@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/contracts/chequebook"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/contracts/chequebook/contract"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/services/swap/swap"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/contracts/chequebook"
+	"github.com/MarconiProtocol/go-methereum-lite/contracts/chequebook/contract"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

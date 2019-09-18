@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 // SwAP Swarm Accounting Protocol with

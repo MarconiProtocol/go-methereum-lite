@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 // Method represents a callable given a `Name` and whether the method is a constant.

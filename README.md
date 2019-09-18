@@ -20,8 +20,8 @@ Main Net: [explorer.marconi.org](https://explorer.marconi.org)
 Test Net: [explorer.testnet.marconi.org](https://explorer.testnet.marconi.org/)  
 
 ## Related Repos
-- [explorer](https://git.marconi.org/marconiprotocol/explorer)
-- [xmr-stak](https://git.marconi.org/marconiprotocol/xmr-stak)
-- [marconi-cryptonight](https://git.marconi.org/marconiprotocol/marconi-cryptonight)
+- [explorer](https://github.com/MarconiProtocol/explorer)
+- [marconi-stak](https://github.com/MarconiProtocol/marconi-stak)
+- [marconi-cryptonight](https://github.com/MarconiProtocol/marconi-cryptonight)
 
 

@@ -25,11 +25,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/abi/bind/backends"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/contracts/chequebook/contract"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/abi/bind/backends"
+	"github.com/MarconiProtocol/go-methereum-lite/contracts/chequebook/contract"
+	"github.com/MarconiProtocol/go-methereum-lite/core"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 var (

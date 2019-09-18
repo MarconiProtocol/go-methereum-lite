@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

@@ -19,9 +19,9 @@ package rpc
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/mem"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/test"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/mem"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/test"
 )
 
 // TestDBStore is running test for a GlobalStore

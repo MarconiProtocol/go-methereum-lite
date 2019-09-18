@@ -21,11 +21,11 @@ import (
 	"net/http"
 	"os"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/db"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/mock/mem"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/db"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/mock/mem"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

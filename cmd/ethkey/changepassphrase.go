@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/accounts/keystore"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/accounts/keystore"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

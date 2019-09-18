@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 // TestDB_pullIndex validates the ordering of keys in pull index.

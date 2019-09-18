@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 // TestDB_SubscribePush uploads some chunks before and after

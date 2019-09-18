@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/asm"
+	"github.com/MarconiProtocol/go-methereum-lite/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

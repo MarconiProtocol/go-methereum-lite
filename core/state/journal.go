@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

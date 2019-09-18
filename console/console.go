@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/jsre"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/internal/web3ext"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/jsre"
+	"github.com/MarconiProtocol/go-methereum-lite/internal/web3ext"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

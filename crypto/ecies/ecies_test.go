@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 )
 
 var dumpEnc bool

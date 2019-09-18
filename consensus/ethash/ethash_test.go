@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/types"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -140,7 +140,7 @@ func TestCryptonightMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://git.marconi.org/marconiprotocol/go-methereum-lite/issues/14943
+// It reproduces https://github.com/ethereum/go-ethereum/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

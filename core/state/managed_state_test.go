@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

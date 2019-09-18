@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 // Gas costs

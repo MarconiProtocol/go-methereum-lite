@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/encryption"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/encryption"
 	"golang.org/x/crypto/sha3"
 )
 

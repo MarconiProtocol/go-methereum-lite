@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 // TestDB_collectGarbageWorker tests garbage collection runs

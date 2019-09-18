@@ -26,7 +26,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 type storedCredential struct {

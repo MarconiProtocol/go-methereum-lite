@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

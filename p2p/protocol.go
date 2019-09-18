@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enr"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

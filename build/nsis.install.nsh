@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://git.marconi.org/marconiprotocol/go-methereum-lite/issues"
-!define UPDATEURL "https://git.marconi.org/marconiprotocol/go-methereum-lite/releases"
-!define ABOUTURL "https://git.marconi.org/marconiprotocol/go-methereum-lite#ethereum-go"
+!define HELPURL "https://github.com/MarconiProtocol/go-methereum-lite/issues"
+!define UPDATEURL "https://github.com/MarconiProtocol/go-methereum-lite/releases"
+!define ABOUTURL "https://github.com/MarconiProtocol/go-methereum-lite#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

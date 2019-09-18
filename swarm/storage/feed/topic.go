@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/bitutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/common/bitutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 // TopicLength establishes the max length of a topic string

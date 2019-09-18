@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

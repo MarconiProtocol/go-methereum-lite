@@ -23,16 +23,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/contracts/ens"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/pss"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/services/swap"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/contracts/ens"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/pss"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/services/swap"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage"
 )
 
 const (

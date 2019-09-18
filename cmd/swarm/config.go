@@ -29,13 +29,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
 	"github.com/naoina/toml"
 
-	bzzapi "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api"
+	bzzapi "github.com/MarconiProtocol/go-methereum-lite/swarm/api"
 )
 
 var (
@@ -97,7 +97,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check github.com/MarconiProtocol/go-methereum-lite/swarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

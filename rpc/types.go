@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

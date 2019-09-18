@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics"
 )
 
 var (

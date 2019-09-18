@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/node"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/adapters"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/network"
+	"github.com/MarconiProtocol/go-methereum-lite/node"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/adapters"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/network"
 )
 
 func TestWaitTillHealthy(t *testing.T) {

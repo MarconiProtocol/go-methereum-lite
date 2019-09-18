@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 func newTestMemStore() *MemStore {

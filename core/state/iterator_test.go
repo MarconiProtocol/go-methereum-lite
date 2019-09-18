@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/ethdb"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

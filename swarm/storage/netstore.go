@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enode"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enode"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations/pipes"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

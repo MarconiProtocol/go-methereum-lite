@@ -3,8 +3,8 @@ package http
 import (
 	"context"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/sctx"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/api"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/sctx"
 )
 
 type uriKey struct{}

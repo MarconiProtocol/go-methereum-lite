@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
 )
 
 var _ = (*criteriaOverride)(nil)

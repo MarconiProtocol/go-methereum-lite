@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
 )
 
 const testSectionSize = 4096
@@ -82,7 +82,7 @@ func TestMatcherRandom(t *testing.T) {
 
 // Tests that the matcher can properly find matches if the starting block is
 // shifter from a multiple of 8. This is needed to cover an optimisation with
-// bitset matching https://git.marconi.org/marconiprotocol/go-methereum-lite/issues/15309.
+// bitset matching https://github.com/ethereum/go-ethereum/issues/15309.
 func TestMatcherShifted(t *testing.T) {
 	// Block 0 always matches in the tests, skip ahead of first 8 blocks with the
 	// start to get a potential zero byte in the matcher bitset.

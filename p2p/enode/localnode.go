@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/enr"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/netutil"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/enr"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/netutil"
 )
 
 const (

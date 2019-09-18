@@ -17,7 +17,7 @@
 package shed
 
 import (
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

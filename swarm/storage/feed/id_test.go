@@ -3,7 +3,7 @@ package feed
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/storage/feed/lookup"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/storage/feed/lookup"
 )
 
 func getTestID() *ID {

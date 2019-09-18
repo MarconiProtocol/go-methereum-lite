@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rpc"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	"github.com/MarconiProtocol/go-methereum-lite/rpc"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/api"
 )
 
 func TestConfigDump(t *testing.T) {

@@ -19,7 +19,7 @@ package network
 import (
 	"testing"
 
-	p2ptest "git.marconi.org/marconiprotocol/go-methereum-lite/p2p/testing"
+	p2ptest "github.com/MarconiProtocol/go-methereum-lite/p2p/testing"
 )
 
 /***

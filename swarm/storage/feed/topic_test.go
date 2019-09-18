@@ -3,7 +3,7 @@ package feed
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/hexutil"
+	"github.com/MarconiProtocol/go-methereum-lite/common/hexutil"
 )
 
 func TestTopic(t *testing.T) {

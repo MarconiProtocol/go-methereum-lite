@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://git.marconi.org/marconiprotocol/go-methereum-lite/issues/2040
+see https://github.com/ethereum/go-ethereum/issues/2040
 Usage:
 
 import (
- "git.marconi.org/marconiprotocol/go-methereum-lite/common/httpclient"
- "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api/http"
+ "github.com/MarconiProtocol/go-methereum-lite/common/httpclient"
+ "github.com/MarconiProtocol/go-methereum-lite/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

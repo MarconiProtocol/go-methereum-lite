@@ -22,7 +22,7 @@ const (
 
 // locationTrims are trimmed for display to avoid unwieldy log lines.
 var locationTrims = []string{
-	"git.marconi.org/marconiprotocol/go-methereum-lite/",
+	"github.com/MarconiProtocol/go-methereum-lite/",
 }
 
 // PrintOrigins sets or unsets log location (file:line) printing for terminal

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/params"
+	"github.com/MarconiProtocol/go-methereum-lite/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/pot"
-	sv "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/version"
+	"github.com/MarconiProtocol/go-methereum-lite/common"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/pot"
+	sv "github.com/MarconiProtocol/go-methereum-lite/swarm/version"
 )
 
 /*

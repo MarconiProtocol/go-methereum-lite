@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/core/vm"
+	"github.com/MarconiProtocol/go-methereum-lite/core/vm"
 )
 
 func TestVM(t *testing.T) {

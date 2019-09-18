@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

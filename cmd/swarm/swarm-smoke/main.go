@@ -21,13 +21,13 @@ import (
 	"os"
 	"sort"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	gethmetrics "git.marconi.org/marconiprotocol/go-methereum-lite/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/metrics/influxdb"
-	swarmmetrics "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/metrics"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/tracing"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	gethmetrics "github.com/MarconiProtocol/go-methereum-lite/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/metrics/influxdb"
+	swarmmetrics "github.com/MarconiProtocol/go-methereum-lite/swarm/metrics"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/tracing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 	"github.com/rjeczalik/notify"
 )
 

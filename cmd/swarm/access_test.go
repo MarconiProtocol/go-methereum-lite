@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto/ecies"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api"
-	swarmapi "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api/client"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/testutil"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto/ecies"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/api"
+	swarmapi "github.com/MarconiProtocol/go-methereum-lite/swarm/api/client"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

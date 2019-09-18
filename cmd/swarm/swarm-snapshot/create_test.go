@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p/simulations"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p/simulations"
 )
 
 // TestSnapshotCreate is a high level e2e test that tests for snapshot generation.

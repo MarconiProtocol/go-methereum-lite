@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/rlp"
+	"github.com/MarconiProtocol/go-methereum-lite/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

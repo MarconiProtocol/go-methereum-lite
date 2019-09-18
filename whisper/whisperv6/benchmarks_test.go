@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/crypto"
+	"github.com/MarconiProtocol/go-methereum-lite/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

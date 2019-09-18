@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/p2p"
+	"github.com/MarconiProtocol/go-methereum-lite/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

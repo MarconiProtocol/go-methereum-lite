@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/cmd/utils"
-	swarm "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api/client"
+	"github.com/MarconiProtocol/go-methereum-lite/cmd/utils"
+	swarm "github.com/MarconiProtocol/go-methereum-lite/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

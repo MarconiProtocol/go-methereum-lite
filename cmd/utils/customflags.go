@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/common/math"
+	"github.com/MarconiProtocol/go-methereum-lite/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	swarmapi "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/api/client"
-	"git.marconi.org/marconiprotocol/go-methereum-lite/swarm/testutil"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	swarmapi "github.com/MarconiProtocol/go-methereum-lite/swarm/api/client"
+	"github.com/MarconiProtocol/go-methereum-lite/swarm/testutil"
 	"github.com/mattn/go-colorable"
 )
 

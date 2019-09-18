@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"git.marconi.org/marconiprotocol/go-methereum-lite/log"
-	ch "git.marconi.org/marconiprotocol/go-methereum-lite/swarm/chunk"
+	"github.com/MarconiProtocol/go-methereum-lite/log"
+	ch "github.com/MarconiProtocol/go-methereum-lite/swarm/chunk"
 	"github.com/mattn/go-colorable"
 )
 
